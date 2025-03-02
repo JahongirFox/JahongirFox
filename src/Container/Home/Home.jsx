@@ -12,7 +12,7 @@ function Home() {
                     <h1>Jahongir Raxmatjonov</h1>
                     <h2>Full-Stack Developer</h2>
                     <div className="Button">
-                        <a href="#nimadur">Contact Me</a>
+                        <a href="#Contact">Contact Me</a>
                     </div>
                     <div className="Icons-center">
                         <div className="Icons">

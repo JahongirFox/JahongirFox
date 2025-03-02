@@ -36,7 +36,7 @@ footer{
     font-family: "Poppins", sans-serif;
     text-align: center;
     font-weight: 100;
-    margin-top: 4%;
+    margin-top: 5%;
 }
 @media (max-width:570px) {
     footer{
@@ -67,10 +67,10 @@ footer{
     }
     .copy>p{
         color: white;
-        font-size: 15px;
+        font-size: 11px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         text-align: center;
         font-weight: 100;
-        margin-top: 8%;
+        margin-top: 10%;
     }
 }
