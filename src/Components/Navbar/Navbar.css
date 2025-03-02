@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    width: 100%;
+    height: 9.5vh;
+    background-color: #002265;
+}
+.Flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1.5% 13%;
+}
+.Flex>a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    
+}
+/* Normal Navbar Links */
+.navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.navbar-links button {
+    color: white;
+    text-decoration: none;
+    background-color: #002265;
+    border: none;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+/* Hamburger Button (1000px dan kichik bo‘lganda ko‘rinadi) */
+.hamburger {
+    display: none;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* RESPONSIVE: 1000px dan kichik bo‘lganda hamburger menyu */
+@media (max-width: 1000px) {
+    nav {
+        width: 100%;
+        height: 10vh;
+        background-color: #002265;
+    }
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        height: 22vh;
+        background-color: #002265;
+        text-align: center;
+        line-height: 0px;
+        /* 🆕 Linklarni markazda saqlash */
+        /* display: flex; */
+        justify-content: center; /* Past-baland joylashishni tekislaydi */
+        align-items: center; /* Chap-o‘ng joylashishni tekislaydi */
+    }
+    .navbar-links>button {
+        color: white;
+        font-size: 19px;
+        margin-top:18px;
+    }
+    .Flex>a{
+        color: white;
+        font-size: 28px;
+        line-height: 30px;
+        font-family: "Poppins", sans-serif;
+
+    }
+    .navbar-links.open {
+        display: flex;
+        color: white;
+    }
+
+    .hamburger {
+        display: block;
+        font-size: 30px;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+}
+@media (max-width: 500px) {
+    nav {
+        width: 100%;
+        height: 9.8vh;
+        background-color: #002265;
+    }
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 41px;
+        left: 0;
+        width: 100%;
+        height: 23vh;
+        background-color: #002265;
+        text-align: center;
+        line-height: 30px;
+        /* 🆕 Linklarni markazda saqlash */
+        /* display: flex; */
+        justify-content: center; /* Past-baland joylashishni tekislaydi */
+        align-items: center; /* Chap-o‘ng joylashishni tekislaydi */
+    }
+    .Flex>a{
+        color: white;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+        line-height: 35px;
+        
+    }
+    .navbar-links>button {
+        color: white;
+        font-size: 16px;
+    }
+    
+    .navbar-links.open {
+        display: flex;
+        color: white;
+    }
+    .Flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 2% 13%;
+    }
+    .hamburger {
+        /* display: none; */
+        font-size: 30px;
+        background: none;
+        border: none;
+        color: white;
+        cursor: pointer;
+    }
+}

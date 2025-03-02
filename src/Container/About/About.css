@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#About{
+    width: 100%;
+    height: 120vh;
+    background-color: white;
+    /* background-image: url(../Img/Background.png); */
+    scroll-behavior: smooth;
+}
+
+.About-Page{
+    text-align: center;
+    line-height: 50px;
+    padding-top: 10px;
+    
+}
+.About-Page>p{
+    color: #0055ff;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    /* padding-top: 4%; */
+}
+.About-Page>h1{
+    color: #002265;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.About-img>p{
+    text-align: center;
+    color: #002265;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+}
+.Certificate>p{
+    color: #0055ff;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    line-height: 26px;
+    padding-top: 3%;
+}
+.Center-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 260px;
+    border: 3px solid #002265;
+    border-radius: 40px;
+
+}
+.CEnter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+}
+.Summary-center>h3{
+    color: #002265;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.Summary-center{
+    width: 70%;
+}
+.Summary-center>p{
+    color: #002265;
+    font-size: 19px;
+    font-family: "Poppins", sans-serif;
+
+}
+.Sumarry{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}

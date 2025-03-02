@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Projects{
+    /* background-image: url(../Img/Background.png); */
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+#Projects>p{
+    color: #0055ff;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -30px;
+}   
+#Projects>h1{
+    color: #002265;
+    font-size: 44px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 750;
+    text-align: center;
+    padding-top: 10px;
+}   
+.card-img-p{
+    color: #002265;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    /* line-height: 60px; */
+    line-height: 40px;
+    padding-top: 30px;
+}
+.block-btn>a>button{
+    color: #002265;
+    font-size: 17px;
+    border: 1px solid #002265;
+    border-radius: 30px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding-left: 40px;
+    height: 34px;
+    padding-right: 40px;
+    margin-top: 10px;
+}
+.block-btn>a>button:hover{
+    color: white;
+    font-size: 17px;
+    border: 1px solid #002265;
+    border-radius: 30px;
+    background-color: #002265;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding-left: 40px;
+    height: 34px;
+    transition: 0.5s;
+    padding-right: 40px;
+}
+.Card-1{
+    border: 3px solid  #002265;
+    width: 400px;
+    height: 440px;
+    border-radius: 30px;
+}
+.Flex-projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+@media (max-width:870px){
+    #Projects{
+        /* background-image: url(../Img/Background.png); */
+    background-color: white;
+
+        width: 100%;
+        height: 200vh;
+    }
+    .Flex-projects{
+        display: block;
+    } 
+    .Block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Card-1{
+        margin-top: 30px;
+    }
+    #Projects>p{
+        color: #0055ff;
+        font-size: 20px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 80px;
+    }
+}
+@media (max-width:450px){
+    #Projects{
+        background-color: white;
+
+        width: 100%;
+        height: 188vh;
+    }
+    .card-img-p>img{
+        width: 270px;
+    }
+    .Card-1{
+        border: 3px solid  #002265;
+        width: 350px;
+        height: 420px;
+        border-radius: 30px;
+    }
+    .card-img-p{
+        color: #002265;
+        font-size: 27px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        /* line-height: 60px; */
+        line-height: 40px;
+        padding-top: 30px;
+    }
+    .block-btn>a>button{
+        color: #002265;
+        font-size: 17px;
+        border: 1px solid #002265;
+        border-radius: 30px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        padding-left: 40px;
+        height: 34px;
+        padding-right: 35px;
+        padding-left: 35px;
+        margin-top: 10px;
+    }
+    .block-btn>a>button:hover{
+        color: white;
+        font-size: 17px;
+        border: 1px solid #002265;
+        border-radius: 30px;
+        background-color: #002265;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        padding-left: 35px;
+        height: 34px;
+        transition: 0.5s;
+        padding-right:35px;
+    }
+}
+@media (max-width:380px){
+    #Projects{
+        background-color: white;
+
+        width: 100%;
+        height: 177vh;
+    }
+    .card-img-p>img{
+        width: 270px;
+    }
+    .Card-1{
+        border: 3px solid  #002265;
+        width: 310px;
+        height: 420px;
+        border-radius: 30px;
+    }
+    .card-img-p{
+        color: #002265;
+        font-size: 27px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        /* line-height: 60px; */
+        line-height: 40px;
+        padding-top: 30px;
+    }
+    .block-btn>a>button{
+        color: #002265;
+        font-size: 17px;
+        border: 1px solid #002265;
+        border-radius: 30px;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        padding-left: 40px;
+        height: 34px;
+        padding-right: 35px;
+        padding-left: 35px;
+        margin-top: 10px;
+    }
+    .block-btn>a>button:hover{
+        color: white;
+        font-size: 17px;
+        border: 1px solid #002265;
+        border-radius: 30px;
+        background-color: #002265;
+        font-family: "Poppins", sans-serif;
+        text-align: center;
+        padding-left: 35px;
+        height: 34px;
+        transition: 0.5s;
+        padding-right:35px;
+    }
+}

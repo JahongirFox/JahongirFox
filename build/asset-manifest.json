@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.255bad33.css",
+    "main.js": "/static/js/main.9670c6c3.js",
+    "static/js/453.6e984a35.chunk.js": "/static/js/453.6e984a35.chunk.js",
+    "static/media/chillpro.png": "/static/media/chillpro.5e3c3b7ecf387c7e2f81.png",
+    "static/media/Fasten.png": "/static/media/Fasten.dd57849754b6586c0122.png",
+    "index.html": "/index.html",
+    "main.255bad33.css.map": "/static/css/main.255bad33.css.map",
+    "main.9670c6c3.js.map": "/static/js/main.9670c6c3.js.map",
+    "453.6e984a35.chunk.js.map": "/static/js/453.6e984a35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.255bad33.css",
+    "static/js/main.9670c6c3.js"
+  ]
+}

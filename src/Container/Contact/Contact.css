@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Contact{
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    /* background-image: url(../Img/Background.png); */
+
+}
+#Contact>p{
+    color: #0055ff;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 90px;
+}   
+#Contact>h1{
+    color: #002265;
+    font-size: 44px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 750;
+    text-align: center;
+    padding-top: 10px;
+} 
+.mail-p{
+    color: #002265;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 274px;
+}
+.mail-p:hover{
+    color: #0055ff;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 274px;
+    text-decoration: underline;
+    transition: 22s;
+}
+.telegram-p{
+    color: #002265;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+}
+.telegram-p:hover{
+    color: #0055ff;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 140px;
+    text-decoration: underline;
+    transition: 22s;
+}
+.center-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 440px;
+}
+.Center-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Border-contact{
+    border: 2px solid #002265;
+    width: 600px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+.centerrr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center-icons>a{
+    text-decoration: none;
+}
+@media (max-width:630px) {
+    .center-icons{
+        display: block;
+    }
+    .center-icons>a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 40px;
+    }
+    .Border-contact{
+        border: 2px solid #002265;
+        width: 400px;
+        border-radius: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 40px;
+    }
+}
+@media (max-width:410px) {
+    .center-icons{
+        display: block;
+    }
+    .center-icons>a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        line-height: 50px;
+    }
+    .Border-contact{
+        border: 2px solid #002265;
+        width: 330px;
+        border-radius: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 40px;
+    }
+}
